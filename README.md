@@ -17,5 +17,7 @@ with various kinds of set logic for the indexes and relational algebra functiona
 
 3. argparse — Parser for command-line options, arguments and sub-commands
 
-4. To able run a monule please use command python mymodule.py -D SG.csv -M Consumption, where file with data  SG.csv and Consumption data sub-set, 
+4. To able run a monule please use command python mymodule.py -D SG.csv, where file with data  SG.csv and Consumption data sub-set and then select quantity, 
 please be sure that console is linked to the right directory whre file with data is located
+
+5. Requirements: python version >=3.8 , statsmodels 0.12.1 (Tested on Ubuntu 20.04 and Windows 10), using anoconda virtual enviromens strongly recomended
