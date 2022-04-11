@@ -71,4 +71,5 @@ def fit_to_model(data_set):
     return model_fit, dfs
 
 if __name__ == "__main__":
+    warnings.filterwarnings("ignore")
     fit_to_model(df)
