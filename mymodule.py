@@ -46,7 +46,7 @@ df=df.dropna(axis=0)
 
 
 # df = pd.read_csv('SG.csv', header=0, parse_dates=[0], index_col=0, squeeze=True)
-df = pd.read_csv('SG.csv',delimiter=';')
+# df = pd.read_csv('SG.csv',delimiter=';')
 
 def fit_to_model(data_set):
     print("Available list ")
